@@ -11,6 +11,6 @@ export default class Home {
 
     const moviesHtml = movies.render()
 
-    document.querySelector('.app').innerHTML = headerHtml + moviesHtml
+    document.querySelector('.app').append(headerHtml, moviesHtml)
   }
 }

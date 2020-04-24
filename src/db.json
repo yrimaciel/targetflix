@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Lançamentos",
+      "movies": [
+        {
+          "id": 1,
+          "title": "Coringa",
+          "imgUrl": "https://cdn.domtotal.com/img/artigos/8461_6229.jpg"
+        },
+        {
+          "id": 2,
+          "title": "O Poço",
+          "imgUrl": "https://cdn.ome.lt/0Y75tAMRkQZxKJMR3u6z4_dxolY=/570x0/smart/uploads/conteudo/fotos/Template_Capa_Omelete_rOmitdD.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Infantil",
+      "movies": [
+        {
+          "id": 1,
+          "title": "Barney",
+          "imgUrl": "https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/s4btp-850043537-Full-Image_GalleryBackground-en-US-1575956006735._SX1080_.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Madagascar",
+          "imgUrl": "https://novelando.ig.com.br/wp-content/uploads/2020/04/os-pinguins-de-madagascar.jpg"
+        }
+      ]
+    }
+  ]
+}
