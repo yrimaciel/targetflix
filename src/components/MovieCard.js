@@ -8,7 +8,7 @@ export default class MovieCard {
   }
 
   showDetails () {
-    const movieDetails = new MovieDetails()
+    const movieDetails = new MovieDetails(this.id)
     movieDetails.render()
   }
 
@@ -16,7 +16,7 @@ export default class MovieCard {
     const divMovieCard = document.createElement('div')
     divMovieCard.className = 'movie-card'
     divMovieCard.style.backgroundImage = `url('${this.imgUrl}')`
-    divMovieCard.onclick = this.showDetails
+    divMovieCard.onclick = this.showDetails.bind(this)
 
     const h2 = document.createElement('h2')
     h2.innerText = this.title
